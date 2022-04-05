@@ -1,11 +1,12 @@
 # CGS3066-Final-Project
-TERM PROjECT  -  TABlE  3066  
+TERM PROjECT  -  TABLE  3066  
 Due Date:  11:59 PM on April 22, 2022  
 For your term project, you should create a simple website for a restaurant called Table 3066. This project 
 can be done in groups of up to 3 students and the goal is for you to practice all of the topics you have learned 
 in this course. 
  
-Assignment Description 
+Assignment Description:
+
 Unlike previous assignments, this time you have a lot more freedom in completing this project. Ofcourse 
 there are a couple of requirements, but feel free to add any functionality or implement any cool ideas you 
 have for the website. These are the requirements that all submissions need to satisfy: 
