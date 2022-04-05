@@ -1,2 +1,79 @@
+<!-- Style-->
+<!-- Adding the Style here will condense the other HTML files. -->
+<!-- I will finish translating this by the end of the day -->
 
+body{
+  background-color: #9481A5;
+}
 
+  h1{
+       font-size: large;
+     }
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+h3{
+  background-color: #9481A5;
+  font-weight: lighter;
+}
+p{
+  text-align: center;
+    font-size:larger;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+  ul {
+    display: block;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    list-style-type: none;
+    font-size: 50px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #934D6D;
+  }
+  
+  li {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  li a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #3D0C32;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 25px;
+  }
+  
+  
+  li a:hover:not(.active) {
+    background-color: #9481A5;
+  }
+  
+  /*
+  .active {
+    background-color: #934D6D;
+  }
+  */
+
+  img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    max-width: 1500px;
+    max-height: 500px;
+  }
