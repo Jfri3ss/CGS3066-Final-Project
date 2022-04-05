@@ -50,21 +50,27 @@ ing the image every 5 seconds.
 3  
 ➢  Navigation  Menu (20 points):  The  menu should have  at least 3 links to the three pages mentioned 
 above. If you add more pages, there should be a link to it here. 
+
 ➢  Footer  (10  points):  This  includes  the  section  at  the  bottom  of  the  page  with  address  and  copyright 
 information, which should look the same on all pages. 
+
 ➢  Home page Content Section (20 points): This is mostly just simple text, but you can put whatever you 
 want in here. 
+
 ➢  Hours page content section (40 points): For this page, besides showing the working hours and days 
 to the user, you need a PHP or javascript script to check if the restaurant is open at the moment and 
 show the result to the user. 
+
 ➢  Menu table in MYSQL (30 points): You need to store menu items in a table in MYSQL. The table 
 needs to store at least 2 fields for each item: name and price. But feel free to add extra information 
 about menu items like ingredients or spiciness. You must need to write PHP with MYSQL code to 
 create the database, table, then read and write to it. 
+
 ➢  Menu page content section (60 points):  This section has two parts. First, you need to show the current 
 menu  items  to  the  user.  This  should  be  fetched  from  MYSQL  dynamically.  Second,  you  need  to 
 include a small form to add menu items to your database. You must need to write PHP with MYSQL 
 code to read and then write to it. 
+
 ➢  Overall Organization and design of your Website (20 points): Feel free to design the website as you 
 wish. You don’t have to follow the sample provided above. 
  
