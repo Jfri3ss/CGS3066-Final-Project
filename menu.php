@@ -113,7 +113,6 @@ $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
                             </thead>
                         </tbody>
                     </table>
-                    <br>
                     <div class="text-center">
                         <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             Add Item
@@ -150,7 +149,6 @@ $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
                                             </select>
                                         </div>
                                     </div>
-
                                     <div style="margin-top: 1rem;" class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                                         <button type="submit" action="php/connect.php" name="submitButton" class="btn btn-dark">Submit</button>
@@ -163,6 +161,7 @@ $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
             </div>
         </div>
     </main>
+    <br>
     <footer class="text-white mt-auto" style="background-color: #212529">
         <div class="container">
             <section>
