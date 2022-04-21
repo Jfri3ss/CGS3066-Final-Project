@@ -113,7 +113,7 @@ $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
                             </thead>
                         </tbody>
                     </table>
-
+                    <br>
                     <div class="text-center">
                         <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             Add Item
