@@ -131,7 +131,7 @@ $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
                         </div>
                         <div class="modal-body">
                             <div class="card-body">
-                                <form action="connect.php" method="post">
+                                <form action="php/connect.php" method="post">
                                     <div class="row g-3">
                                         <div class="col-md-5">
                                             <label for="entreeName" class="form-label">Entrée Name</label>
@@ -153,7 +153,7 @@ $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
 
                                     <div style="margin-top: 1rem;" class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                        <button type="submit" action="connect.php" name="submitButton" class="btn btn-dark">Submit</button>
+                                        <button type="submit" action="php/connect.php" name="submitButton" class="btn btn-dark">Submit</button>
                                     </div>
                                 </form>
                             </div>
