@@ -1,4 +1,5 @@
 <?php
+//Connect to database
 //include_once 'php/dbConnection.php';
 $dbServername = "Steves-iMac.local";
 $dbUsername = "user1";
@@ -30,6 +31,7 @@ $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
             max-height: 420px !important;
         }
     </style>
+
 </head>
 
 <body>
@@ -142,29 +144,34 @@ $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
                         </div>
                         <div class="modal-body">
                             <div class="card-body">
+                              <form action="connect.php" method="post">
                                 <div class="row g-3">
                                     <div class="col-md-5">
                                         <label for="entreeName" class="form-label">Entrée Name</label>
-                                        <input type="text" class="form-control" id="entreeName" placeholder="" aria-label="City">
+                                        <input type="text" class="form-control" id="entreeName" name="entreeName" placeholder="" aria-label="City">
                                     </div>
                                     <div class="col-md-3">
                                         <label for="entreeName" class="form-label">Price</label>
-                                        <input type="text" class="form-control" placeholder="" aria-label="State">
+                                        <input type="text" class="form-control" id="price" name="price" placeholder="" aria-label="State">
                                     </div>
                                     <div class="col-md-4">
                                         <label for="inputState" class="form-label">Vegetarian</label>
-                                        <select id="inputState" class="form-select">
+                                        <select id="vegetarian" name="vegetarian" class="form-select">
                                             <option selected></option>
-                                            <option>Yes</option>
-                                            <option>No</option>
+                                            <option name="vegetarian" value="Yes">Yes</option>
+                                            <option name="vegetarian" value="No">No</option>
                                         </select>
                                     </div>
                                 </div>
+                                <button type="submit" action="connect.php" name="submitButton" class="btn btn-primary">Submit</button>
+
+
+                              </form>
                             </div>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Submit</button>
+                            <button type="submit" action="connect.php" name="submitButton" class="btn btn-primary">Submit</button>
                         </div>
                     </div>
                 </div>
