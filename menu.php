@@ -1,6 +1,6 @@
 <?php
 //Connect to local database
-$dbServername = "Steves-iMac.local";
+$dbServername = "Jeremiahs-MacBook-Pro.local";
 $dbUsername = "user1";
 $dbPassword = "password12";
 $dbName = "db";
