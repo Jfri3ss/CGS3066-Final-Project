@@ -1,4 +1,4 @@
-# CGS3066-Final-Project-Write-Up
+# CGS3066-Final-Project-Write-Up.
 
 Kelly Curran
 	For our final project, I was responsible for creating the foundation of the website. I created a folder containing the HTML files for our website along with any images I found online to implement into our image carousel. After creating these files, I inserted a style section to maintain a cohesive aesthetic for the website as well as making sure each webpage matched in format. After that, I ensured all web pages were linked together fluidly through our navigation menu. I also created the image carousel that is consistent throughout all 3 pages. After creating the layout for our website, I wrote out a short paragraph about our “restaurant” in the home page container. Lastly, I went ahead and created a database and table for our “restaurants” menu page which included the names of dishes offered at our establishment and their prices. 
