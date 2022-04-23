@@ -1,4 +1,4 @@
-# CGS3066-Final-Project
+# CGS3066-Final-Project-Write-Up
 
 Once you complete your project, include a short write-up (1-page max) that includes the names of the group members for this project as well as a description of each member’s responsibilities. Zip all of your files in a folder and submit them through Canvas. Make sure to include the PHP code for creating the database, and menu table. 
 
