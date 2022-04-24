@@ -13,5 +13,5 @@ $price = $_POST['price'];
 $vegetarian = $_POST['vegetarian'];
 
 $stmt->execute();
-header("Refresh:0; url=menu.php");
+header("Refresh:0; url=/menu.php");
 ?>
